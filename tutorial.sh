@@ -1,0 +1,1 @@
+python tools/playgame.py "python MyBot.py3" "python tools/sample_bots/python/GreedyBot.py" --map_file tools/maps/example/tutorial1.map --log_dir game_logs --turns 600 --scenario --food none --player_seed 70 --verbose -e
