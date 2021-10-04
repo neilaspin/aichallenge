@@ -92,4 +92,4 @@ if __name__ == '__main__':
         # parsing function and your own game state class
         Ants.run(MyBot())
     except KeyboardInterrupt:
-        print('ctrl-c, leaving ...')f
+        print('ctrl-c, leaving ...')
