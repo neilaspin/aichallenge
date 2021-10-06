@@ -28,6 +28,9 @@ class MyBot:
     def do_turn(self, ants):
         orders = {}  # Dictionary of all orders issued
         targets = {}  # Dictioanary of all food targets
+        visited = {}  # Dictionary of visited nodes.
+
+
 
         def do_move_direction(loc, direction):
             new_loc = ants.destination(loc, direction)

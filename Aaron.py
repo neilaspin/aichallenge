@@ -27,7 +27,7 @@ class MyBot:
     # it also has several helper methods to use
     def do_turn(self, ants):
         orders = {}  # Dictionary of all orders issued
-        targets = {}  # Dictioanary of all food targets
+
 
         def do_move_direction(loc, direction):
             new_loc = ants.destination(loc, direction)
